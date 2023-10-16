@@ -1,13 +1,13 @@
 <?php
-    // class IoTDevice{
-    //     //Properties
+    class IoTDevice{
+        //Properties
         
-    //     $ID;
-    //     $location;
-    //     $type;
-    //     $data;
+        private $ID;
+        private $location;
+        private $type;
+        private $data;
 
-    // }
+    }
 
 
 ?>
