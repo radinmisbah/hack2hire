@@ -1,0 +1,7 @@
+<?php
+    $energy_production;
+
+
+
+
+?>
