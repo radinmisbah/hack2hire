@@ -1,11 +1,4 @@
 <?php
-<<<<<<< HEAD
-
-    $name;
-    $facility_type;
-    $notificatio_pref;
-=======
->>>>>>> 18ee4a452d0ac241c76b6f4b62245a5d90d986c4
 
 include "config.php";
 
