@@ -15,10 +15,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         // Call the signin method to validate the credentials
         if ($facilityManager->signin($email, $password)) {
             // Sign-in was successful; you can redirect or perform other actions here
-            echo "Sign-in successful. Welcome, " . $email . "!";
+            echo '<script>alert("Sign-in successful. Welcome, ' . $username . '!");</script>';
         } else {
             // Sign-in failed; display an error message or redirect to a login page
-            echo "Sign-in failed. Invalid credentials.";
+            echo '<script>alert("Sign-in failed. Invalid credentials.");</script>';
         }
     } else {
         // Handle empty form fields
